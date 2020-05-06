@@ -1,0 +1,25 @@
+{
+  "author": "Sergey Pedan",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "76.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "all_frames": false,
+      "js": ["incognito-instagram-helper.js"],
+      "match_about_blank": false,
+      "matches": ["https://www.instagram.com/*"]
+    }
+  ],
+  "description": "Removes “Log in to continue”: modal dialog at the home page, and banner at the bottom of photo pages.",
+  "developer": {
+    "name": "Sergey Pedan",
+    "url": "https://sergeypedan.ru"
+  },
+  "manifest_version": 2,
+  "name": "Instagram log-in wall” remover",
+  "incognito": "spanning",
+  "version": "1.0"
+}
