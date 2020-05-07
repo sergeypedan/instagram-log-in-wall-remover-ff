@@ -16,4 +16,4 @@ Searches current page (only if the domain is instagram.com) for the blocks to re
 
 ## How to install
 
-From official FireFox addons store
+From the official FireFox addons store: [addon page](https://addons.mozilla.org/en-US/firefox/addon/instagram-log-in-wall-remover/)
