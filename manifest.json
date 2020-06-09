@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "all_frames": false,
-      "js": ["incognito-instagram-helper.js"],
+      "js": ["instagram-login-wall-remover.js"],
       "match_about_blank": false,
       "matches": ["https://www.instagram.com/*"]
     }
@@ -27,5 +27,5 @@
   "manifest_version": 2,
   "name": "Instagram “log-in wall” remover",
   "incognito": "spanning",
-  "version": "1.0"
+  "version": "1.1"
 }
